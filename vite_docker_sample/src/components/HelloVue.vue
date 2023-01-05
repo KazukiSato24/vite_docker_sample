@@ -3,3 +3,5 @@
 <template>
   <p>HelloVue</p>
 </template>
+
+<style scoped lang="scss"></style>
