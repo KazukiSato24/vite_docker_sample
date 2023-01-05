@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: vite_docker_sample
+    working_dir: /app
+    volumes:
+      - ./vite_docker_sample:/app
+    ports:
+      - "8000:8000"
